@@ -68,7 +68,13 @@
 }
 
 .buttons {
-    margin-top:40px;
+    margin-top: -20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 90%;
+    position: fixed;
+    float: top;
+    background-color: black;
 }
 .buttons a{
     display:block;
@@ -139,4 +145,8 @@ img.centered {
     margin-right: auto;
     margin-left: auto;
     display:block;
+}
+
+.faq{
+    margin-top: 100px;
 }
