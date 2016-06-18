@@ -1,0 +1,152 @@
+.hacknc-body {
+    background-color: black;
+}
+.parallax-mirror{
+  /* Webkit color separated image looks best with pixelated, but others look best with auto. */
+  image-rendering: pixelated;
+  /* Opera */
+  image-rendering: -o-crisp-edges;
+  /* Best on Firefox and Safari, put this on bottom, webkit will ignore. */
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  /* IE */
+  -ms-interpolation-mode: nearest-neighbor;
+}
+.parallax {
+  /* Webkit color separated image looks best with pixelated, but others look best with auto. */
+  image-rendering: pixelated;
+  /* Opera */
+  image-rendering: -o-crisp-edges;
+  /* Best on Firefox and Safari, put this on bottom, webkit will ignore. */
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  /* IE */
+  -ms-interpolation-mode: nearest-neighbor;
+}
+#header-container {
+    background-image: url("../images/landing/layer1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; 
+    width:100%;
+}
+.apply {
+    width: 100%;
+    padding-top: 280px;
+}
+.apply form {
+    display: none;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.apply button {
+    width: 100%
+}
+
+.subsection {
+    color: #FFFFFF;
+}
+.subsection p {
+    margin-top: 20px;
+    font-size: 1.3em;
+    line-height: 1.9em;  
+}
+
+.subsection h2 {
+    margin-top: 30px;
+    font-family: 'Sigmar One', cursive;
+}
+
+.subsection h4 {
+    margin-top: 30px;
+    font-family: 'Sigmar One', cursive;
+}
+
+.mission-statment {
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: -20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 90%;
+    position: fixed;
+    float: top;
+    background-color: black;
+}
+.buttons a{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.buttons button {
+    margin: 0 auto;
+    width: 100%;
+    min-width: 150px;
+    height: 60px;
+    font-family: 'Sigmar One', cursive;
+    font-size: 1.6em;
+    margin: 10px auto;
+}
+.mobile-app .phone {
+    margin-top: 60px;
+    width: 150px;
+    height: 300px;
+}
+.mobile-app h2 {
+    margin-top: 100px;
+}
+.mobile-app p {
+    margin-bottom: 30px;
+}
+.map-container {
+    margin-top: 100px;
+    width:100%;
+    height:350px;
+}
+#map {
+    width:100%;
+    height:100%;
+}
+/* Sections based on screen size*/
+@media (min-width: 0px){
+    #header-container {
+        height: 400px;
+    }
+}
+@media (min-width: 768px){
+
+    /*Override Bootstrap*/
+    #mission-statment-ram {
+        width: 300px;
+    }
+    #header-container {
+        height: 600px;
+    }
+}
+@media (min-width: 1170px){
+    #header-container {
+        height: 850px;
+    }
+}
+@media (min-width: 1900px){
+    #header-container {
+        height: 1100px;
+    }
+}
+
+.black {
+    background-color: black;
+}
+
+img.centered {
+    margin-right: auto;
+    margin-left: auto;
+    display:block;
+}
+
+.schedule{
+    margin-top: 100px;
+}
