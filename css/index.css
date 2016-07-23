@@ -29,7 +29,7 @@ html {
 }
 /* Section styles */
 .hacknc-body {
-  background-color: #2C2C31;
+  background-color: #5FB1FC;
   height: 100%;
   overflow-x: hidden;
 }
@@ -83,6 +83,10 @@ html {
   background-color: transparent;
   padding-top: 10px;
   z-index: 100;
+  background-color: #2C2C31;
+  border-bottom-color: #272727;
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
 }
 .navi {
   list-style-type: none;
