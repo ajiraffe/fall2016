@@ -4,7 +4,7 @@
   src: url("../fonts/geo_sans_light/GeosansLight.ttf");
 }
 
-/*greys: (#2C2C31, #4F4744); blues: ( #3F6185, #5A8EC5, #6BB0F2, #80C1FD); yellows: (#ffc027, #ffd600)*/
+/*greys: (#2C2C31, #4F4744); blues: ( #204F80, #3178C4, #3D9BF5, #5FB1FC); yellows: (#ffc027, #ffd600)*/
 
 html {
   height: 100%;
@@ -132,7 +132,7 @@ html {
 }
 .apply .btn {
   background-color:#ffd600;
-  color: #3F6185;
+  color: #204F80;
   font-family: 'geo-sans-light', sans-serif;
   font-size: 35px;
   border: 0px; 
@@ -153,7 +153,7 @@ html {
   z-index: 10;
 }
 .shell.blue {
-  background-color: #3F6185;
+  background-color: #204F80;
 }
 .shell.gray {
   background-color: #2C2C31;
@@ -185,7 +185,7 @@ html {
   padding-bottom: 15px;
 }
 .stay-tuned {
-  /*border: 10px solid #3F6185;*/
+  /*border: 10px solid #204F80;*/
 }
 .social-media ul {
   margin-top: 60px;
@@ -232,7 +232,7 @@ html {
   margin-top: 15px;
 }
 .buttons button:hover {
-  color: #3F6185;
+  color: #204F80;
 }
 .mobile-app .phone {
   text-align: center;
@@ -262,7 +262,7 @@ html {
   color: #ffd600;
 }
 .round-border {
-  border: 10px solid #3F6185;
+  border: 10px solid #204F80;
   border-radius: 4px;
 }
 #map {
@@ -333,7 +333,7 @@ html {
 }
 @media (min-width: 768px){
   .stay-tuned {
-    /*border: 10px solid #3F6185;*/
+    /*border: 10px solid #204F80;*/
     margin-top: 0px;
   }
   #header-container {
