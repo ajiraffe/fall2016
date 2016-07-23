@@ -81,7 +81,6 @@ html {
 #navbar {
   overflow: hidden;
   background-color: transparent;
-  padding-top: 10px;
   z-index: 100;
   background-color: #2C2C31;
 }
@@ -332,6 +331,7 @@ html {
     top: 460px;
     background-color: transparent;
     border-bottom: none;
+    padding-top: 0px;
   }
   .footer .navi{
     display: none;
@@ -373,6 +373,7 @@ html {
     top: initial;
     background-color: #2C2C31;
     border-bottom: 3px solid #272727;
+    padding-top: 10px;
   }
   .footer .navi{
     display: block;
